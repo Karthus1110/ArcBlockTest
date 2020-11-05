@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6D21202552374200CA5C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D211F2552374200CA5C88 /* AppDelegate.swift */; };
+		1A6D21292552374300CA5C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D21282552374300CA5C88 /* Assets.xcassets */; };
+		1A6D212C2552374300CA5C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D212A2552374300CA5C88 /* LaunchScreen.storyboard */; };
+		1A6D21372552374300CA5C88 /* ArcBlockTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21362552374300CA5C88 /* ArcBlockTestTests.swift */; };
+		1A6D21422552374300CA5C88 /* ArcBlockTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21412552374300CA5C88 /* ArcBlockTestUITests.swift */; };
+		1A6D21752552391500CA5C88 /* ZYBaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21602552391500CA5C88 /* ZYBaseNavigationViewController.swift */; };
+		1A6D21762552391500CA5C88 /* ZYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21612552391500CA5C88 /* ZYBaseViewController.swift */; };
+		1A6D21772552391500CA5C88 /* ZYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21662552391500CA5C88 /* ZYExtension.swift */; };
+		1A6D21782552391500CA5C88 /* ZYHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21672552391500CA5C88 /* ZYHelper.swift */; };
+		1A6D21792552391500CA5C88 /* ZYFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21682552391500CA5C88 /* ZYFoundation.swift */; };
+		1A6D217B2552391500CA5C88 /* ZYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D216B2552391500CA5C88 /* ZYAlertView.swift */; };
+		1A6D217C2552391500CA5C88 /* ZYFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D216C2552391500CA5C88 /* ZYFileHelper.swift */; };
+		1A6D217D2552391500CA5C88 /* ZYArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D216D2552391500CA5C88 /* ZYArchive.swift */; };
+		1A6D218925524FFC00CA5C88 /* ZYTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D218825524FFC00CA5C88 /* ZYTestModel.swift */; };
+		1A6D219A2552517300CA5C88 /* ZYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21992552517300CA5C88 /* ZYHomeViewController.swift */; };
+		1A6D21BB25525D7B00CA5C88 /* ZYRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D21BA25525D7B00CA5C88 /* ZYRootViewController.swift */; };
+		1A6D21DA2552779800CA5C88 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D21D92552779800CA5C88 /* data.json */; };
+		1AB1FB32255280A0004442FE /* ZYHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FB31255280A0004442FE /* ZYHomeCell.swift */; };
+		1AB1FB372552832F004442FE /* ZYHomeTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FB362552832F004442FE /* ZYHomeTextCell.swift */; };
+		1AB1FB3C2552833E004442FE /* ZYHomeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FB3B2552833E004442FE /* ZYHomeImageCell.swift */; };
+		1AB1FB4925528376004442FE /* ZYHomeSingleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FB4825528376004442FE /* ZYHomeSingleImageCell.swift */; };
+		1AB1FB4E255283A6004442FE /* ZYHomeMultiImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FB4D255283A6004442FE /* ZYHomeMultiImageCell.swift */; };
+		1AB1FB6F25528B10004442FE /* ZYHomeLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FB6E25528B10004442FE /* ZYHomeLinkCell.swift */; };
+		1AB1FBA525539943004442FE /* ZYZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FBA425539943004442FE /* ZYZoomImageView.swift */; };
+		1AB1FBAA25539C63004442FE /* ZYImgPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FBA925539C63004442FE /* ZYImgPreviewController.swift */; };
+		1AB1FBAF2553A0E9004442FE /* ZYTextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FBAE2553A0E9004442FE /* ZYTextController.swift */; };
+		1AB1FBB42553D23B004442FE /* ZYImgTextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FBB32553D23B004442FE /* ZYImgTextController.swift */; };
+		1AB1FBCF2553D8BE004442FE /* ZYAutoBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1FBCE2553D8BE004442FE /* ZYAutoBannerView.swift */; };
+		DAC00C8285DC9D14B030D834 /* Pods_ArcBlockTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AB3A12E3471FE5F3B56AE4 /* Pods_ArcBlockTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6D21332552374300CA5C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6D21142552374200CA5C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6D211B2552374200CA5C88;
+			remoteInfo = ArcBlockTest;
+		};
+		1A6D213E2552374300CA5C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6D21142552374200CA5C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6D211B2552374200CA5C88;
+			remoteInfo = ArcBlockTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A6D211C2552374200CA5C88 /* ArcBlockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBlockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D211F2552374200CA5C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A6D21282552374300CA5C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6D212B2552374300CA5C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6D212D2552374300CA5C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D21322552374300CA5C88 /* ArcBlockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcBlockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D21362552374300CA5C88 /* ArcBlockTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcBlockTestTests.swift; sourceTree = "<group>"; };
+		1A6D21382552374300CA5C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D213D2552374300CA5C88 /* ArcBlockTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcBlockTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D21412552374300CA5C88 /* ArcBlockTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcBlockTestUITests.swift; sourceTree = "<group>"; };
+		1A6D21432552374300CA5C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D21602552391500CA5C88 /* ZYBaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYBaseNavigationViewController.swift; sourceTree = "<group>"; };
+		1A6D21612552391500CA5C88 /* ZYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYBaseViewController.swift; sourceTree = "<group>"; };
+		1A6D21662552391500CA5C88 /* ZYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYExtension.swift; sourceTree = "<group>"; };
+		1A6D21672552391500CA5C88 /* ZYHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYHelper.swift; sourceTree = "<group>"; };
+		1A6D21682552391500CA5C88 /* ZYFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYFoundation.swift; sourceTree = "<group>"; };
+		1A6D216B2552391500CA5C88 /* ZYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYAlertView.swift; sourceTree = "<group>"; };
+		1A6D216C2552391500CA5C88 /* ZYFileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYFileHelper.swift; sourceTree = "<group>"; };
+		1A6D216D2552391500CA5C88 /* ZYArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYArchive.swift; sourceTree = "<group>"; };
+		1A6D218825524FFC00CA5C88 /* ZYTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTestModel.swift; sourceTree = "<group>"; };
+		1A6D21992552517300CA5C88 /* ZYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeViewController.swift; sourceTree = "<group>"; };
+		1A6D21BA25525D7B00CA5C88 /* ZYRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYRootViewController.swift; sourceTree = "<group>"; };
+		1A6D21D92552779800CA5C88 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		1AB1FB31255280A0004442FE /* ZYHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeCell.swift; sourceTree = "<group>"; };
+		1AB1FB362552832F004442FE /* ZYHomeTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeTextCell.swift; sourceTree = "<group>"; };
+		1AB1FB3B2552833E004442FE /* ZYHomeImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeImageCell.swift; sourceTree = "<group>"; };
+		1AB1FB4825528376004442FE /* ZYHomeSingleImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeSingleImageCell.swift; sourceTree = "<group>"; };
+		1AB1FB4D255283A6004442FE /* ZYHomeMultiImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeMultiImageCell.swift; sourceTree = "<group>"; };
+		1AB1FB6E25528B10004442FE /* ZYHomeLinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYHomeLinkCell.swift; sourceTree = "<group>"; };
+		1AB1FBA425539943004442FE /* ZYZoomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYZoomImageView.swift; sourceTree = "<group>"; };
+		1AB1FBA925539C63004442FE /* ZYImgPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYImgPreviewController.swift; sourceTree = "<group>"; };
+		1AB1FBAE2553A0E9004442FE /* ZYTextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTextController.swift; sourceTree = "<group>"; };
+		1AB1FBB32553D23B004442FE /* ZYImgTextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYImgTextController.swift; sourceTree = "<group>"; };
+		1AB1FBCE2553D8BE004442FE /* ZYAutoBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAutoBannerView.swift; sourceTree = "<group>"; };
+		33AB3A12E3471FE5F3B56AE4 /* Pods_ArcBlockTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcBlockTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AA1F5A8D1F2D6C1364A9C1 /* Pods-ArcBlockTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlockTest.release.xcconfig"; path = "Target Support Files/Pods-ArcBlockTest/Pods-ArcBlockTest.release.xcconfig"; sourceTree = "<group>"; };
+		9D2CE4886059EE6871721684 /* Pods-ArcBlockTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlockTest.debug.xcconfig"; path = "Target Support Files/Pods-ArcBlockTest/Pods-ArcBlockTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6D21192552374200CA5C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC00C8285DC9D14B030D834 /* Pods_ArcBlockTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D212F2552374300CA5C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D213A2552374300CA5C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6D21132552374200CA5C88 = {
+			isa = PBXGroup;
+			children = (
+				1A6D211E2552374200CA5C88 /* ArcBlockTest */,
+				1A6D21352552374300CA5C88 /* ArcBlockTestTests */,
+				1A6D21402552374300CA5C88 /* ArcBlockTestUITests */,
+				1A6D211D2552374200CA5C88 /* Products */,
+				C07E75F31CCD53C6D581C300 /* Pods */,
+				BE1EA14AB6A38D54BF042E80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6D211D2552374200CA5C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D211C2552374200CA5C88 /* ArcBlockTest.app */,
+				1A6D21322552374300CA5C88 /* ArcBlockTestTests.xctest */,
+				1A6D213D2552374300CA5C88 /* ArcBlockTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6D211E2552374200CA5C88 /* ArcBlockTest */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21522552391500CA5C88 /* Module */,
+				1A6D21642552391500CA5C88 /* ZYArchitecture */,
+				1A6D21D82552779800CA5C88 /* Resource */,
+				1A6D211F2552374200CA5C88 /* AppDelegate.swift */,
+				1A6D21BA25525D7B00CA5C88 /* ZYRootViewController.swift */,
+				1A6D21282552374300CA5C88 /* Assets.xcassets */,
+				1A6D212A2552374300CA5C88 /* LaunchScreen.storyboard */,
+				1A6D212D2552374300CA5C88 /* Info.plist */,
+			);
+			path = ArcBlockTest;
+			sourceTree = "<group>";
+		};
+		1A6D21352552374300CA5C88 /* ArcBlockTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21362552374300CA5C88 /* ArcBlockTestTests.swift */,
+				1A6D21382552374300CA5C88 /* Info.plist */,
+			);
+			path = ArcBlockTestTests;
+			sourceTree = "<group>";
+		};
+		1A6D21402552374300CA5C88 /* ArcBlockTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21412552374300CA5C88 /* ArcBlockTestUITests.swift */,
+				1A6D21432552374300CA5C88 /* Info.plist */,
+			);
+			path = ArcBlockTestUITests;
+			sourceTree = "<group>";
+		};
+		1A6D21522552391500CA5C88 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D215E2552391500CA5C88 /* Base */,
+				1A6D218425524FE400CA5C88 /* Home */,
+			);
+			name = Module;
+			path = ArcBlockTest/Module;
+			sourceTree = SOURCE_ROOT;
+		};
+		1A6D215E2552391500CA5C88 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D215F2552391500CA5C88 /* Controller */,
+				1A6D21622552391500CA5C88 /* Model */,
+				1A6D21632552391500CA5C88 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1A6D215F2552391500CA5C88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21602552391500CA5C88 /* ZYBaseNavigationViewController.swift */,
+				1A6D21612552391500CA5C88 /* ZYBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A6D21622552391500CA5C88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A6D21632552391500CA5C88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A6D21642552391500CA5C88 /* ZYArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21652552391500CA5C88 /* Foundation */,
+				1A6D21692552391500CA5C88 /* Utils */,
+			);
+			path = ZYArchitecture;
+			sourceTree = SOURCE_ROOT;
+		};
+		1A6D21652552391500CA5C88 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21662552391500CA5C88 /* ZYExtension.swift */,
+				1A6D21672552391500CA5C88 /* ZYHelper.swift */,
+				1A6D21682552391500CA5C88 /* ZYFoundation.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		1A6D21692552391500CA5C88 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D216B2552391500CA5C88 /* ZYAlertView.swift */,
+				1A6D216C2552391500CA5C88 /* ZYFileHelper.swift */,
+				1A6D216D2552391500CA5C88 /* ZYArchive.swift */,
+				1AB1FBCE2553D8BE004442FE /* ZYAutoBannerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1A6D218425524FE400CA5C88 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D218525524FE400CA5C88 /* Controller */,
+				1A6D218625524FE400CA5C88 /* Model */,
+				1A6D218725524FE400CA5C88 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1A6D218525524FE400CA5C88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21992552517300CA5C88 /* ZYHomeViewController.swift */,
+				1AB1FBA925539C63004442FE /* ZYImgPreviewController.swift */,
+				1AB1FBAE2553A0E9004442FE /* ZYTextController.swift */,
+				1AB1FBB32553D23B004442FE /* ZYImgTextController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A6D218625524FE400CA5C88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D218825524FFC00CA5C88 /* ZYTestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A6D218725524FE400CA5C88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1FB31255280A0004442FE /* ZYHomeCell.swift */,
+				1AB1FBA425539943004442FE /* ZYZoomImageView.swift */,
+				1AB1FB362552832F004442FE /* ZYHomeTextCell.swift */,
+				1AB1FB3B2552833E004442FE /* ZYHomeImageCell.swift */,
+				1AB1FB4825528376004442FE /* ZYHomeSingleImageCell.swift */,
+				1AB1FB4D255283A6004442FE /* ZYHomeMultiImageCell.swift */,
+				1AB1FB6E25528B10004442FE /* ZYHomeLinkCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A6D21D82552779800CA5C88 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D21D92552779800CA5C88 /* data.json */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE1EA14AB6A38D54BF042E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33AB3A12E3471FE5F3B56AE4 /* Pods_ArcBlockTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07E75F31CCD53C6D581C300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D2CE4886059EE6871721684 /* Pods-ArcBlockTest.debug.xcconfig */,
+				36AA1F5A8D1F2D6C1364A9C1 /* Pods-ArcBlockTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6D211B2552374200CA5C88 /* ArcBlockTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D21462552374300CA5C88 /* Build configuration list for PBXNativeTarget "ArcBlockTest" */;
+			buildPhases = (
+				769FFB0C3B09DDB04677B787 /* [CP] Check Pods Manifest.lock */,
+				1A6D21182552374200CA5C88 /* Sources */,
+				1A6D21192552374200CA5C88 /* Frameworks */,
+				1A6D211A2552374200CA5C88 /* Resources */,
+				79A3CFDA26A9E3264115CBA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcBlockTest;
+			productName = ArcBlockTest;
+			productReference = 1A6D211C2552374200CA5C88 /* ArcBlockTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A6D21312552374300CA5C88 /* ArcBlockTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D21492552374300CA5C88 /* Build configuration list for PBXNativeTarget "ArcBlockTestTests" */;
+			buildPhases = (
+				1A6D212E2552374300CA5C88 /* Sources */,
+				1A6D212F2552374300CA5C88 /* Frameworks */,
+				1A6D21302552374300CA5C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6D21342552374300CA5C88 /* PBXTargetDependency */,
+			);
+			name = ArcBlockTestTests;
+			productName = ArcBlockTestTests;
+			productReference = 1A6D21322552374300CA5C88 /* ArcBlockTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A6D213C2552374300CA5C88 /* ArcBlockTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D214C2552374300CA5C88 /* Build configuration list for PBXNativeTarget "ArcBlockTestUITests" */;
+			buildPhases = (
+				1A6D21392552374300CA5C88 /* Sources */,
+				1A6D213A2552374300CA5C88 /* Frameworks */,
+				1A6D213B2552374300CA5C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6D213F2552374300CA5C88 /* PBXTargetDependency */,
+			);
+			name = ArcBlockTestUITests;
+			productName = ArcBlockTestUITests;
+			productReference = 1A6D213D2552374300CA5C88 /* ArcBlockTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6D21142552374200CA5C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1A6D211B2552374200CA5C88 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1A6D21312552374300CA5C88 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1A6D211B2552374200CA5C88;
+					};
+					1A6D213C2552374300CA5C88 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1A6D211B2552374200CA5C88;
+					};
+				};
+			};
+			buildConfigurationList = 1A6D21172552374200CA5C88 /* Build configuration list for PBXProject "ArcBlockTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6D21132552374200CA5C88;
+			productRefGroup = 1A6D211D2552374200CA5C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6D211B2552374200CA5C88 /* ArcBlockTest */,
+				1A6D21312552374300CA5C88 /* ArcBlockTestTests */,
+				1A6D213C2552374300CA5C88 /* ArcBlockTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6D211A2552374200CA5C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D212C2552374300CA5C88 /* LaunchScreen.storyboard in Resources */,
+				1A6D21292552374300CA5C88 /* Assets.xcassets in Resources */,
+				1A6D21DA2552779800CA5C88 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D21302552374300CA5C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D213B2552374300CA5C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		769FFB0C3B09DDB04677B787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcBlockTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A3CFDA26A9E3264115CBA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcBlockTest/Pods-ArcBlockTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcBlockTest/Pods-ArcBlockTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArcBlockTest/Pods-ArcBlockTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6D21182552374200CA5C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D219A2552517300CA5C88 /* ZYHomeViewController.swift in Sources */,
+				1A6D218925524FFC00CA5C88 /* ZYTestModel.swift in Sources */,
+				1A6D21752552391500CA5C88 /* ZYBaseNavigationViewController.swift in Sources */,
+				1A6D217C2552391500CA5C88 /* ZYFileHelper.swift in Sources */,
+				1A6D21772552391500CA5C88 /* ZYExtension.swift in Sources */,
+				1AB1FBCF2553D8BE004442FE /* ZYAutoBannerView.swift in Sources */,
+				1AB1FBAA25539C63004442FE /* ZYImgPreviewController.swift in Sources */,
+				1AB1FBAF2553A0E9004442FE /* ZYTextController.swift in Sources */,
+				1A6D217B2552391500CA5C88 /* ZYAlertView.swift in Sources */,
+				1A6D21762552391500CA5C88 /* ZYBaseViewController.swift in Sources */,
+				1A6D21792552391500CA5C88 /* ZYFoundation.swift in Sources */,
+				1A6D21782552391500CA5C88 /* ZYHelper.swift in Sources */,
+				1AB1FBB42553D23B004442FE /* ZYImgTextController.swift in Sources */,
+				1AB1FB4E255283A6004442FE /* ZYHomeMultiImageCell.swift in Sources */,
+				1AB1FB6F25528B10004442FE /* ZYHomeLinkCell.swift in Sources */,
+				1A6D217D2552391500CA5C88 /* ZYArchive.swift in Sources */,
+				1A6D21202552374200CA5C88 /* AppDelegate.swift in Sources */,
+				1AB1FB32255280A0004442FE /* ZYHomeCell.swift in Sources */,
+				1A6D21BB25525D7B00CA5C88 /* ZYRootViewController.swift in Sources */,
+				1AB1FBA525539943004442FE /* ZYZoomImageView.swift in Sources */,
+				1AB1FB372552832F004442FE /* ZYHomeTextCell.swift in Sources */,
+				1AB1FB3C2552833E004442FE /* ZYHomeImageCell.swift in Sources */,
+				1AB1FB4925528376004442FE /* ZYHomeSingleImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D212E2552374300CA5C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D21372552374300CA5C88 /* ArcBlockTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D21392552374300CA5C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D21422552374300CA5C88 /* ArcBlockTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6D21342552374300CA5C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6D211B2552374200CA5C88 /* ArcBlockTest */;
+			targetProxy = 1A6D21332552374300CA5C88 /* PBXContainerItemProxy */;
+		};
+		1A6D213F2552374300CA5C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6D211B2552374200CA5C88 /* ArcBlockTest */;
+			targetProxy = 1A6D213E2552374300CA5C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A6D212A2552374300CA5C88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6D212B2552374300CA5C88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6D21442552374300CA5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A6D21452552374300CA5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6D21472552374300CA5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2CE4886059EE6871721684 /* Pods-ArcBlockTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ArcBlockTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthus.ArcBlockTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6D21482552374300CA5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AA1F5A8D1F2D6C1364A9C1 /* Pods-ArcBlockTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ArcBlockTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthus.ArcBlockTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A6D214A2552374300CA5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ArcBlockTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Karthus.ArcBlockTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcBlockTest.app/ArcBlockTest";
+			};
+			name = Debug;
+		};
+		1A6D214B2552374300CA5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ArcBlockTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Karthus.ArcBlockTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcBlockTest.app/ArcBlockTest";
+			};
+			name = Release;
+		};
+		1A6D214D2552374300CA5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ArcBlockTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Karthus.ArcBlockTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcBlockTest;
+			};
+			name = Debug;
+		};
+		1A6D214E2552374300CA5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ArcBlockTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Karthus.ArcBlockTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcBlockTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6D21172552374200CA5C88 /* Build configuration list for PBXProject "ArcBlockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D21442552374300CA5C88 /* Debug */,
+				1A6D21452552374300CA5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D21462552374300CA5C88 /* Build configuration list for PBXNativeTarget "ArcBlockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D21472552374300CA5C88 /* Debug */,
+				1A6D21482552374300CA5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D21492552374300CA5C88 /* Build configuration list for PBXNativeTarget "ArcBlockTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D214A2552374300CA5C88 /* Debug */,
+				1A6D214B2552374300CA5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D214C2552374300CA5C88 /* Build configuration list for PBXNativeTarget "ArcBlockTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D214D2552374300CA5C88 /* Debug */,
+				1A6D214E2552374300CA5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6D21142552374200CA5C88 /* Project object */;
+}
