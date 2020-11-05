@@ -22,6 +22,7 @@
 - 首页导航栏右键模拟无数据或无网络情况，使用runtime监听tableview的DataSource来决定是否展示空占位图，个人项目[PixHall](https://apps.apple.com/cn/app/id1475197621)中有对图片及数据加载异常、网络异常等的详细处理，此处因时间问题，只是模拟展示
 - 页面布局使用AutoLayout框架[SnapKit](https://github.com/SnapKit/SnapKit),链式语法，稳定高效，该库为Swift版本的[Masonry](https://github.com/SnapKit/Masonry)
 - 项目内小图标使用iOS 13新增的 [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
+- 多类型cell使用父类和多态的方式处理，所有cell继承自`ZYHomeCell`,统一通过model赋值，可以在处理tableview的DataSource中简化代码，减少if-else，switch使用，使代码更简洁、优雅。
 
 
 
